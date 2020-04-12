@@ -6,10 +6,10 @@ import org.testng.annotations.Test;
 
 import com.ebay.pageObjects.HomePage;
 import com.ebay.pageObjects.LoginPage;
-import com.ebay.resources.Base;
+import com.ebay.resources.BaseClass;
 import com.ebay.utilities.ReadConfig;
 
-public class LoginAndSearchProductTest extends Base {
+public class LoginAndSearchProductTest extends BaseClass {
 	
 	public LoginPage loginPage;
 	public HomePage homePage;

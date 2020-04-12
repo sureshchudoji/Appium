@@ -4,6 +4,7 @@ import java.io.*;
 import java.util.*;
 public class ReadConfig {
 	
+	//Get the property value from properties file by passing the key
    public String getProperty(String propertyName) throws IOException {
       FileInputStream fis = null;
       Properties prop = null;

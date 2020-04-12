@@ -14,7 +14,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
 
 import com.ebay.resources.Constants;
 
-public abstract class Base {
+public abstract class BaseClass {
 	
 	public static AppiumDriver<AndroidElement> driver;
 	public static DesiredCapabilities cap;
