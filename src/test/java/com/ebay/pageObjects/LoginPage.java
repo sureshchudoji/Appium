@@ -33,31 +33,35 @@ public class LoginPage extends BaseClass {
 	@AndroidFindBy(id="signInSubmit")
 	public WebElement loginButton;
 	
-	
+	//Click on the button 'Use Different Account'
 	public void clickUseDifferentAccountButton() {
 		useDifferentAccountButton.click();
 		System.out.println("Clicked Button");
 		//wait.until(ExpectedConditions.visibilityOf(useDifferentAccountButton)).click();
 	}
 	
+	//Type email in username textbox
 	public void enterEmail(String email){
 		emailTextBox.clear();
 		//wait.until(ExpectedConditions.visibilityOf(emailTextBox)).clear();
 		emailTextBox.sendKeys(email);
 	}
 	
+	//type password in password field
 	public void enterPassword(String password){
 		passwordTextBox.clear();
 		//wait.until(ExpectedConditions.visibilityOf(passwordTextBox)).clear();
 		passwordTextBox.sendKeys(password);
 	}
 	
+	//Click on Login button
 	public void clickLogin() {
 		loginButton.click();
 		System.out.println("Clicked on Login");
 		//wait.until(ExpectedConditions.visibilityOf(loginButton)).click();
 	}
 	
+	//Click on Continue button
 	public void clickContinue() {
 		continueButton.click();
 		System.out.println("Clicked on Continue");

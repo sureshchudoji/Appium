@@ -33,7 +33,7 @@ public class HomePage extends BaseClass {
 	@AndroidFindBy(xpath="//*[@text='Save Changes']")
 	public WebElement saveChangesButton;
 	
-	
+	//Select preferred language for app English / Hindi
 	public void selectLanguage() throws InterruptedException {
 		System.out.println("Language");
 		Thread.sleep(10000);
@@ -43,10 +43,9 @@ public class HomePage extends BaseClass {
 		System.out.println("Language Selected");
 	}	
 	
-	
+	//Search an item
 	public void searchItem(String itemName) throws InterruptedException {
 		searchTextBox.sendKeys(itemName);
-		searchTextBox.click();
 		searchedItem.click();
 		Thread.sleep(5000);
 		System.out.println("Item searched");

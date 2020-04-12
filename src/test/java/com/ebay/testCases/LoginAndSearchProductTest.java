@@ -29,7 +29,7 @@ public class LoginAndSearchProductTest extends BaseClass {
 		Thread.sleep(3000);
 		
 		homePage.selectLanguage();
-		homePage.searchItem("65 inch tv");
+		homePage.searchItem(config.getProperty("searchKey"));
 		
 		System.out.println("TV Searched");
 		
