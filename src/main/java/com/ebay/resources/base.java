@@ -24,15 +24,15 @@ public abstract class Base {
 	public void beforeClass() {
 		cap = new DesiredCapabilities();
 		cap.setCapability(Constants.DEVICE_NAME, Constants.REDMI_K20);
-		cap.setCapability(Constants.UDID, Constants.DEVICE_ID ); //"udid", "23f2db35");
-		cap.setCapability(Constants.AUTOMATION_NAME, Constants.UI_AUTOMATOR1); //"automationName", "Uiautomator1");
-		cap.setCapability(Constants.PLATFORM_NAME, Constants.ANDROID); //"platformName", "Android");
-		cap.setCapability(Constants.PLATFORM_VERSION, Constants.ANDROID_VERSION); //"platformVersion", "10.0");
-		cap.setCapability(Constants.WAIT_FOR_IDLE_TIMEOUT, Constants.IDLE_TIMEOUT); //"waitForIdleTimeout", "3000");
-		cap.setCapability(Constants.DISABLE_WINDOW_ANIMATION, Constants.TRUE); //"disableWindowAnimation", "true");
-		cap.setCapability(Constants.APP_PACKAGE_, Constants.APP_PACKAGE_NAME_); //"appPackage", "com.amazon.mShop.android.shopping");
-		cap.setCapability(Constants.APP_ACTIVITY, Constants.APP_ACTIVITY_NAME); //"appActivity", "com.amazon.mShop.home.HomeActivity");
-		cap.setCapability(Constants.NO_RESET, Constants.FALSE); //"noReset", "false");
+		cap.setCapability(Constants.UDID, Constants.DEVICE_ID ); 
+		cap.setCapability(Constants.AUTOMATION_NAME, Constants.UI_AUTOMATOR1);
+		cap.setCapability(Constants.PLATFORM_NAME, Constants.ANDROID);
+		cap.setCapability(Constants.PLATFORM_VERSION, Constants.ANDROID_VERSION);
+		cap.setCapability(Constants.WAIT_FOR_IDLE_TIMEOUT, Constants.IDLE_TIMEOUT);
+		cap.setCapability(Constants.DISABLE_WINDOW_ANIMATION, Constants.TRUE);
+		cap.setCapability(Constants.APP_PACKAGE_, Constants.APP_PACKAGE_NAME_);
+		cap.setCapability(Constants.APP_ACTIVITY, Constants.APP_ACTIVITY_NAME);
+		cap.setCapability(Constants.NO_RESET, Constants.FALSE);
 		cap.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + "/app/Amazon_shopping.apk");
 		
 		try {
@@ -52,14 +52,5 @@ public abstract class Base {
 		driver.resetApp();
 		driver.quit();
 	}
-	
-	
-	//public void swipe(int x_start, int y_start, int x_stop, int y_stop, int duration) {
- 	//
-	//	new TouchAction(driver).press(PointOption.point(x_start, y_start))
-	//			.waitAction(WaitOptions.waitOptions(Duration.ofSeconds(duration)))
-	//			.moveTo(PointOption.point(x_stop, y_stop)).release().perform();
-	//}
-	
 
 }

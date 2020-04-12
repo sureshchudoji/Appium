@@ -6,7 +6,7 @@ import com.ebay.pageObjects.HomePage;
 import com.ebay.pageObjects.LoginPage;
 import com.ebay.resources.Base;
 
-public class LoginToAmazon extends Base {
+public class LoginAndSearchProductTest extends Base {
 	
 	public LoginPage loginPage;
 	public HomePage homePage;
