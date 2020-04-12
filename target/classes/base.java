@@ -12,8 +12,9 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileCapabilityType;
 
+import com.ebay.resources.Constants;
 
-public abstract class base {
+public abstract class Base {
 	
 	public static AppiumDriver<AndroidElement> driver;
 	public static DesiredCapabilities cap;
@@ -22,17 +23,17 @@ public abstract class base {
 	@BeforeClass
 	public void beforeClass() {
 		cap = new DesiredCapabilities();
-		cap.setCapability("deviceName", "Redmi-K20");
-		cap.setCapability("udid", "23f2db35");
-		cap.setCapability("automationName", "Uiautomator1");
-		cap.setCapability("platformName", "Android");
-		cap.setCapability("platformVersion", "10.0");
-		cap.setCapability("waitForIdleTimeout", "3000");
-		cap.setCapability("disableWindowAnimation", "true");
-		cap.setCapability("appPackage", "com.amazon.mShop.android.shopping");
-		cap.setCapability("appActivity", "com.amazon.mShop.home.HomeActivity");
-		cap.setCapability("noReset", "false");
-		cap.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + "/applicationPath/Amazon_shopping.apk");
+		cap.setCapability(Constants.DEVICE_NAME, Constants.REDMI_K20);
+		cap.setCapability(Constants.UDID, Constants.DEVICE_ID ); //"udid", "23f2db35");
+		cap.setCapability(Constants.AUTOMATION_NAME, Constants.UI_AUTOMATOR1); //"automationName", "Uiautomator1");
+		cap.setCapability(Constants.PLATFORM_NAME, Constants.ANDROID); //"platformName", "Android");
+		cap.setCapability(Constants.PLATFORM_VERSION, Constants.ANDROID_VERSION); //"platformVersion", "10.0");
+		cap.setCapability(Constants.WAIT_FOR_IDLE_TIMEOUT, Constants.IDLE_TIMEOUT); //"waitForIdleTimeout", "3000");
+		cap.setCapability(Constants.DISABLE_WINDOW_ANIMATION, Constants.TRUE); //"disableWindowAnimation", "true");
+		cap.setCapability(Constants.APP_PACKAGE_, Constants.APP_PACKAGE_NAME_); //"appPackage", "com.amazon.mShop.android.shopping");
+		cap.setCapability(Constants.APP_ACTIVITY, Constants.APP_ACTIVITY_NAME); //"appActivity", "com.amazon.mShop.home.HomeActivity");
+		cap.setCapability(Constants.NO_RESET, Constants.FALSE); //"noReset", "false");
+		cap.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + "/app/Amazon_shopping.apk");
 		
 		try {
 			URL url = new URL("http://127.0.0.1:4723/wd/hub");

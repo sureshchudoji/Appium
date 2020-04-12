@@ -3,17 +3,17 @@ package com.ebay.pageObjects;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
-import com.ebay.resources.base;
+import com.ebay.resources.Base;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
-public class HomePage extends base {
+public class HomePage extends Base {
 	
 	public HomePage(AppiumDriver<AndroidElement> driver) {
-		base.driver = driver;
+		Base.driver = driver;
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 		//PageFactory.initElements(driver, this);
 	}

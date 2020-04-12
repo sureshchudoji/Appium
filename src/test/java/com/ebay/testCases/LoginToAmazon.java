@@ -4,9 +4,9 @@ import org.testng.annotations.Test;
 
 import com.ebay.pageObjects.HomePage;
 import com.ebay.pageObjects.LoginPage;
-import com.ebay.resources.base;
+import com.ebay.resources.Base;
 
-public class LoginToAmazon extends base {
+public class LoginToAmazon extends Base {
 	
 	public LoginPage loginPage;
 	public HomePage homePage;
