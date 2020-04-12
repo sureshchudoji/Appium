@@ -24,17 +24,9 @@ public class Constants {
 	public static String APP_ACTIVITY = "appActivity";
 	public static String APP_ACTIVITY_NAME = "com.amazon.mShop.home.HomeActivity";
 	public static String NO_RESET = "noReset";
+	public static String APPIUM_HOST_URL = "http://127.0.0.1:4723/wd/hub";
+	public static String APK_FILE_PATH = "/app/Amazon_shopping.apk";
 	public static boolean TRUE  =  true;
 	public static boolean FALSE  =  false;
 	
-	//cap.setCapability("deviceName", "Redmi-K20");
-	//cap.setCapability("udid", "23f2db35");
-	//cap.setCapability("automationName", "Uiautomator1");
-	//cap.setCapability("platformName", "Android");
-	//cap.setCapability("platformVersion", "10.0");
-	//cap.setCapability("waitForIdleTimeout", "3000");
-	//cap.setCapability("disableWindowAnimation", "true");
-	//cap.setCapability("appPackage", "com.amazon.mShop.android.shopping");
-	//cap.setCapability("appActivity", "com.amazon.mShop.home.HomeActivity");
-	//cap.setCapability("noReset", "false");
 }

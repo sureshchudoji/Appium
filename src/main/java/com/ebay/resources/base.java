@@ -33,10 +33,10 @@ public abstract class Base {
 		cap.setCapability(Constants.APP_PACKAGE_, Constants.APP_PACKAGE_NAME_);
 		cap.setCapability(Constants.APP_ACTIVITY, Constants.APP_ACTIVITY_NAME);
 		cap.setCapability(Constants.NO_RESET, Constants.FALSE);
-		cap.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + "/app/Amazon_shopping.apk");
+		cap.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + Constants.APK_FILE_PATH);
 		
 		try {
-			URL url = new URL("http://127.0.0.1:4723/wd/hub");
+			URL url = new URL(Constants.APPIUM_HOST_URL);
 			driver = new AppiumDriver<AndroidElement>(url, cap);
 			System.out.println("App launched successfully!");		
 			driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
