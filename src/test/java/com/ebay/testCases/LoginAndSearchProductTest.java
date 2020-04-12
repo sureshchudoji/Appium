@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import com.ebay.pageObjects.HomePage;
 import com.ebay.pageObjects.LoginPage;
 import com.ebay.resources.BaseClass;
+import com.ebay.resources.Log;
 import com.ebay.utilities.ReadConfig;
 
 public class LoginAndSearchProductTest extends BaseClass {
@@ -14,6 +15,7 @@ public class LoginAndSearchProductTest extends BaseClass {
 	public LoginPage loginPage;
 	public HomePage homePage;
 	public ReadConfig config;
+	
 	@Test
 	public void launchApp() throws InterruptedException, IOException {
 		
@@ -26,14 +28,11 @@ public class LoginAndSearchProductTest extends BaseClass {
 		loginPage.clickContinue();
 		loginPage.enterPassword(config.getProperty("password"));
 		loginPage.clickLogin();
-		Thread.sleep(3000);
 		
 		homePage.selectLanguage();
 		homePage.searchItem(config.getProperty("searchKey"));
 		
-		System.out.println("TV Searched");
-		
+		Log.info("TV search is successful");
 	}
-	
 
 }

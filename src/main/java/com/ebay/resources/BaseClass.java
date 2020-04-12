@@ -3,8 +3,8 @@ package com.ebay.resources;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.BasicConfigurator;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -18,7 +18,7 @@ public abstract class BaseClass {
 	
 	public static AppiumDriver<AndroidElement> driver;
 	public static DesiredCapabilities cap;
-	public static WebDriverWait wait;
+	public static Waits wait; 
 
 	@BeforeClass
 	public void beforeClass() {
@@ -35,10 +35,13 @@ public abstract class BaseClass {
 		cap.setCapability(Constants.NO_RESET, Constants.FALSE);
 		cap.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + Constants.APK_FILE_PATH);
 		
+		wait = new Waits();
+		//Initialize log4j configurations
+		BasicConfigurator.configure();
 		try {
 			URL url = new URL(Constants.APPIUM_HOST_URL);
 			driver = new AppiumDriver<AndroidElement>(url, cap);
-			System.out.println("App launched successfully!");		
+			Log.info("Application launched successfully");		
 			driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		}
 		catch(Exception ex) {

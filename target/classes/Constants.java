@@ -28,5 +28,7 @@ public class Constants {
 	public static String APK_FILE_PATH = "/app/Amazon_shopping.apk";
 	public static boolean TRUE  =  true;
 	public static boolean FALSE  =  false;
+	public static int MAX_WAIT = 10000;
+	public static int MIN_WAIT = 5000;
 	
 }

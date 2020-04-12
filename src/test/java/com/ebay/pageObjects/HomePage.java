@@ -1,9 +1,10 @@
 package com.ebay.pageObjects;
 
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 import com.ebay.resources.BaseClass;
+import com.ebay.resources.Constants;
+import com.ebay.resources.Log;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidElement;
@@ -15,43 +16,36 @@ public class HomePage extends BaseClass {
 	public HomePage(AppiumDriver<AndroidElement> driver) {
 		BaseClass.driver = driver;
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
-		//PageFactory.initElements(driver, this);
 	}
 
 	@AndroidFindBy(id="com.amazon.mShop.android.shopping:id/rs_search_src_text")
-	public WebElement searchTextBox;
+	public AndroidElement searchTextBox;
 	
 	@AndroidFindBy(id="ap_email_login")
-	public WebElement emailTextBox;
+	public AndroidElement emailTextBox;
 	
 	@AndroidFindBy(xpath="//android.widget.TextView[contains(@text,'65 inch tv')]")
-	public WebElement searchedItem;
+	public AndroidElement searchedItem;
 	
 	@AndroidFindBy(xpath="//*[contains(@text,'English')]")
-	public WebElement englishRadioOption;
+	public AndroidElement englishRadioOption;
 	
 	@AndroidFindBy(xpath="//*[@text='Save Changes']")
-	public WebElement saveChangesButton;
+	public AndroidElement saveChangesButton;
 	
 	//Select preferred language for app English / Hindi
 	public void selectLanguage() throws InterruptedException {
-		System.out.println("Language");
-		Thread.sleep(10000);
-		englishRadioOption.click();
-		saveChangesButton.click();
-		Thread.sleep(3000);
-		System.out.println("Language Selected");
+		Thread.sleep(Constants.MAX_WAIT);
+		wait.waitForElement(englishRadioOption).click();
+		wait.waitForElement(saveChangesButton).click();
+		Log.info("English language option selected");
 	}	
 	
 	//Search an item
 	public void searchItem(String itemName) throws InterruptedException {
-		searchTextBox.sendKeys(itemName);
-		searchedItem.click();
-		Thread.sleep(5000);
-		System.out.println("Item searched");
-		//wait.until(ExpectedConditions.visibilityOf(useDifferentAccountButton)).click();
+		wait.waitForElement(searchTextBox).sendKeys(itemName);
+		wait.waitForElement(searchedItem).click();
+		Log.info("Item search successfully");
 	}
-	
-	
 
 }

@@ -1,9 +1,9 @@
 package com.ebay.pageObjects;
 
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 import com.ebay.resources.BaseClass;
+import com.ebay.resources.Log;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidElement;
@@ -15,56 +15,55 @@ public class LoginPage extends BaseClass {
 	public LoginPage(AppiumDriver<AndroidElement> driver) {
 		BaseClass.driver = driver;
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
-		//PageFactory.initElements(driver, this);
 	}
 	
 	@AndroidFindBy(id="com.amazon.mShop.android.shopping:id/sso_use_different_account")
-	public WebElement useDifferentAccountButton;
+	public AndroidElement useDifferentAccountButton;
 	
 	@AndroidFindBy(id="ap_email_login")
-	public WebElement emailTextBox;
+	public AndroidElement emailTextBox;
 	
 	@AndroidFindBy(xpath="//*[contains(@text,'Continue')]")
-	public WebElement continueButton;
+	public AndroidElement continueButton;
 	
 	@AndroidFindBy(id="ap_password")
-	public WebElement passwordTextBox;
+	public AndroidElement passwordTextBox;
 	
 	@AndroidFindBy(id="signInSubmit")
-	public WebElement loginButton;
+	public AndroidElement loginButton;
 	
 	//Click on the button 'Use Different Account'
 	public void clickUseDifferentAccountButton() {
-		useDifferentAccountButton.click();
-		System.out.println("Clicked Button");
-		//wait.until(ExpectedConditions.visibilityOf(useDifferentAccountButton)).click();
+		wait.waitForElement(useDifferentAccountButton).click();
+		Log.info("Clicked on Use Different Account button");
+		
 	}
 	
 	//Type email in username textbox
 	public void enterEmail(String email){
-		emailTextBox.clear();
-		//wait.until(ExpectedConditions.visibilityOf(emailTextBox)).clear();
+		wait.waitForElement(emailTextBox).clear();
 		emailTextBox.sendKeys(email);
+		Log.info("Email entered");
 	}
 	
 	//type password in password field
 	public void enterPassword(String password){
-		passwordTextBox.clear();
-		//wait.until(ExpectedConditions.visibilityOf(passwordTextBox)).clear();
+		wait.waitForElement(passwordTextBox).clear();
 		passwordTextBox.sendKeys(password);
+		Log.info("Password entered");
 	}
 	
 	//Click on Login button
 	public void clickLogin() {
-		loginButton.click();
-		System.out.println("Clicked on Login");
-		//wait.until(ExpectedConditions.visibilityOf(loginButton)).click();
+		wait.waitForElement(loginButton).click();
+		Log.info("Clicked on Login button");
+		
 	}
 	
 	//Click on Continue button
 	public void clickContinue() {
-		continueButton.click();
-		System.out.println("Clicked on Continue");
+		wait.waitForElement(continueButton).click();
+		Log.info("Clicked on Continue button");
 	}
 
 }
