@@ -17,7 +17,7 @@ public class LoginAndSearchProductTest extends BaseClass {
 	public ReadConfig config;
 	
 	@Test
-	public void launchApp() throws InterruptedException, IOException {
+	public void LoginAndSearchTest() throws InterruptedException, IOException {
 		
 		loginPage = new LoginPage(driver);
 		homePage = new HomePage(driver);
