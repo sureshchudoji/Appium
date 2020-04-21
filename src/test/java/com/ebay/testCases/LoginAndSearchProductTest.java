@@ -32,7 +32,7 @@ public class LoginAndSearchProductTest extends BaseClass {
 		homePage.selectLanguage();
 		homePage.searchItem(config.getProperty("searchKey"));
 		
-		Log.info("TV search is successful");
+		Log.info("TV searched & selected successful");
 	}
 
 }

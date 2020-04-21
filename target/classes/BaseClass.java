@@ -3,7 +3,6 @@ package com.ebay.resources;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.BasicConfigurator;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -37,11 +36,9 @@ public abstract class BaseClass {
 		
 		wait = new Waits();
 		//Initialize log4j configurations
-		BasicConfigurator.configure();
 		try {
 			URL url = new URL(Constants.APPIUM_HOST_URL);
-			driver = new AppiumDriver<AndroidElement>(url, cap);
-			Log.info("Application launched successfully");		
+			driver = new AppiumDriver<AndroidElement>(url, cap);		
 			driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		}
 		catch(Exception ex) {
