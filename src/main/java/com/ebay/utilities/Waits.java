@@ -1,4 +1,4 @@
-package com.ebay.resources;
+package com.ebay.utilities;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -12,7 +12,7 @@ public class Waits extends BaseClass {
 	//Waits for an element to be visible for a specified time 
 	public AndroidElement waitForElement(AndroidElement androidElement) {
 		try {
-			wait = new WebDriverWait(driver, 15);
+			wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.visibilityOf(androidElement));
 		}catch (Exception ex) {
 			Log.info(ex.getMessage());

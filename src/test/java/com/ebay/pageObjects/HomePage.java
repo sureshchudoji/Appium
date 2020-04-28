@@ -1,9 +1,12 @@
 package com.ebay.pageObjects;
 
+import java.io.IOException;
+
 import org.openqa.selenium.support.PageFactory;
 
-import com.ebay.resources.BaseClass;
-import com.ebay.resources.Constants;
+import com.ebay.utilities.BaseClass;
+import com.ebay.utilities.Constants;
+import com.ebay.utilities.Helper;
 import com.ebay.resources.Log;
 
 import io.appium.java_client.AppiumDriver;
@@ -24,7 +27,7 @@ public class HomePage extends BaseClass {
 	@AndroidFindBy(id="ap_email_login")
 	public AndroidElement emailTextBox;
 	
-	@AndroidFindBy(xpath="//android.widget.TextView[contains(@text,'65 inch tv')]")
+	@AndroidFindBy(xpath="//android.widget.TextView[contains(@text,'apple iphone 11')]")
 	public AndroidElement searchedItem;
 	
 	@AndroidFindBy(xpath="//*[contains(@text,'English')]")
@@ -33,12 +36,26 @@ public class HomePage extends BaseClass {
 	@AndroidFindBy(xpath="//*[@text='Save Changes']")
 	public AndroidElement saveChangesButton;
 	
-	//Select preferred language for app English / Hindi
-	public void selectLanguage() throws InterruptedException {
-		Thread.sleep(Constants.MAX_WAIT);
-		wait.waitForElement(englishRadioOption).click();
-		wait.waitForElement(saveChangesButton).click();
-		Log.info("English language option selected");
+	@AndroidFindBy(id="com.amazon.mShop.android.shopping:id/web_home_shop_by_department_label")
+	public AndroidElement shopByCategory;
+	
+	//Select preferred language English/Hindi if user prompts with language selection
+	public void selectLanguage() throws InterruptedException, IOException {
+		Thread.sleep(Constants.MAX_WAIT);		
+		Boolean langPopup = driver.findElementsByXPath("//android.view.View[@text='close']").size() != 0;
+		
+		//Check whether the language selection pop-up is displayed
+		if(langPopup) {
+			try {
+				wait.waitForElement(englishRadioOption).click();
+				wait.waitForElement(saveChangesButton).click();
+				Log.info("English language option selected");
+			} 
+			catch (Exception e) {
+				Log.info(e.getMessage());
+				Helper.getScreenshot("LanguageSelection");
+			}
+		}
 	}	
 	
 	//Search an item
@@ -46,6 +63,12 @@ public class HomePage extends BaseClass {
 		wait.waitForElement(searchTextBox).sendKeys(itemName);
 		wait.waitForElement(searchedItem).click();
 		Log.info("Item search successfully");
+	}
+	
+	//Returns the element shopByCategory
+	public AndroidElement getShopByCategory() {
+		return wait.waitForElement(shopByCategory);
+		//return shopByCategory;
 	}
 
 }

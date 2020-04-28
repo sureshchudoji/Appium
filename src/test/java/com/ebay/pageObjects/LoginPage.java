@@ -2,7 +2,7 @@ package com.ebay.pageObjects;
 
 import org.openqa.selenium.support.PageFactory;
 
-import com.ebay.resources.BaseClass;
+import com.ebay.utilities.BaseClass;
 import com.ebay.resources.Log;
 
 import io.appium.java_client.AppiumDriver;
@@ -46,7 +46,7 @@ public class LoginPage extends BaseClass {
 		Log.info("Email entered");
 	}
 	
-	//type password in password field
+	//Type password in password field
 	public void enterPassword(String password){
 		wait.waitForElement(passwordTextBox).clear();
 		passwordTextBox.sendKeys(password);

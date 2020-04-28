@@ -6,3 +6,346 @@
 [INFO ] 2020-04-22 02:24:41.493 [main] Log - English language option selected
 [INFO ] 2020-04-22 02:24:49.702 [main] Log - Item search successfully
 [INFO ] 2020-04-22 02:24:49.703 [main] Log - TV searched & selected successful
+[INFO ] 2020-04-22 02:36:29.549 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-22 02:36:41.349 [main] Log - Email entered
+[INFO ] 2020-04-22 02:36:42.276 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-22 02:36:51.728 [main] Log - Password entered
+[INFO ] 2020-04-22 02:36:53.458 [main] Log - Clicked on Login button
+[INFO ] 2020-04-22 02:37:05.457 [main] Log - English language option selected
+[INFO ] 2020-04-22 02:37:13.695 [main] Log - Item search successfully
+[INFO ] 2020-04-22 02:37:13.695 [main] Log - TV searched & selected successful
+[INFO ] 2020-04-28 16:40:02.715 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-28 16:40:12.308 [main] Log - Email entered
+[INFO ] 2020-04-28 16:40:13.140 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-28 16:40:22.869 [main] Log - Password entered
+[INFO ] 2020-04-28 16:40:24.038 [main] Log - Clicked on Login button
+[INFO ] 2020-04-28 16:41:24.385 [main] Log - Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //*[contains(@text,'English')]}) (tried for 15 second(s) with 500 milliseconds interval)
+[INFO ] 2020-04-28 16:43:02.092 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-28 16:43:12.822 [main] Log - Email entered
+[INFO ] 2020-04-28 16:43:13.689 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-28 16:43:23.587 [main] Log - Password entered
+[INFO ] 2020-04-28 16:43:24.725 [main] Log - Clicked on Login button
+[INFO ] 2020-04-28 16:44:25.023 [main] Log - Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //*[contains(@text,'English')]}) (tried for 15 second(s) with 500 milliseconds interval)
+[INFO ] 2020-04-28 16:52:53.495 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-28 16:53:03.271 [main] Log - Email entered
+[INFO ] 2020-04-28 16:53:04.163 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-28 16:53:13.450 [main] Log - Password entered
+[INFO ] 2020-04-28 16:53:14.672 [main] Log - Clicked on Login button
+[INFO ] 2020-04-28 16:54:22.567 [main] Log - Item search successfully
+[INFO ] 2020-04-28 16:54:22.568 [main] Log - TV searched & selected successful
+[INFO ] 2020-04-28 17:12:32.542 [main] Log - Item search successfully
+[INFO ] 2020-04-28 17:21:08.673 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-28 17:21:18.373 [main] Log - Email entered
+[INFO ] 2020-04-28 17:21:19.286 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-28 17:21:28.722 [main] Log - Password entered
+[INFO ] 2020-04-28 17:21:29.887 [main] Log - Clicked on Login button
+[INFO ] 2020-04-28 17:22:27.403 [main] Log - Item search successfully
+[INFO ] 2020-04-28 17:51:35.735 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-28 17:51:45.863 [main] Log - Email entered
+[INFO ] 2020-04-28 17:51:46.824 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-28 17:51:56.209 [main] Log - Password entered
+[INFO ] 2020-04-28 17:51:57.388 [main] Log - Clicked on Login button
+[INFO ] 2020-04-28 17:52:53.982 [main] Log - Item search successfully
+[INFO ] 2020-04-28 17:58:18.133 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-28 17:58:33.231 [main] Log - Email entered
+[INFO ] 2020-04-28 17:58:34.185 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-28 17:58:44.480 [main] Log - Password entered
+[INFO ] 2020-04-28 17:58:45.700 [main] Log - Clicked on Login button
+[INFO ] 2020-04-28 17:59:45.392 [main] Log - Item search successfully
+[INFO ] 2020-04-28 18:04:15.154 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-28 18:04:24.286 [main] Log - Email entered
+[INFO ] 2020-04-28 18:04:25.167 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-28 18:04:35.001 [main] Log - Password entered
+[INFO ] 2020-04-28 18:04:36.761 [main] Log - Clicked on Login button
+[INFO ] 2020-04-28 18:05:36.563 [main] Log - Item search successfully
+[INFO ] 2020-04-28 18:09:46.997 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-28 18:09:57.686 [main] Log - Email entered
+[INFO ] 2020-04-28 18:09:58.546 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-28 18:10:07.563 [main] Log - Password entered
+[INFO ] 2020-04-28 18:10:08.844 [main] Log - Clicked on Login button
+[INFO ] 2020-04-28 18:11:34.776 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-28 18:11:54.949 [main] Log - Email entered
+[INFO ] 2020-04-28 18:11:55.816 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-28 18:12:05.241 [main] Log - Password entered
+[INFO ] 2020-04-28 18:12:06.535 [main] Log - Clicked on Login button
+[INFO ] 2020-04-28 18:13:23.483 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-28 18:13:34.021 [main] Log - Email entered
+[INFO ] 2020-04-28 18:13:34.929 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-28 18:13:44.663 [main] Log - Password entered
+[INFO ] 2020-04-28 18:13:45.783 [main] Log - Clicked on Login button
+[INFO ] 2020-04-28 18:14:45.654 [main] Log - Item search successfully
+[INFO ] 2020-04-28 18:15:39.171 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-28 18:15:48.997 [main] Log - Email entered
+[INFO ] 2020-04-28 18:15:49.934 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-28 18:15:59.447 [main] Log - Password entered
+[INFO ] 2020-04-28 18:16:00.777 [main] Log - Clicked on Login button
+[INFO ] 2020-04-28 18:16:59.369 [main] Log - Item search successfully
+[INFO ] 2020-04-28 18:21:43.772 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-28 18:21:53.497 [main] Log - Email entered
+[INFO ] 2020-04-28 18:21:54.378 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-28 18:22:04.147 [main] Log - Password entered
+[INFO ] 2020-04-28 18:22:05.304 [main] Log - Clicked on Login button
+[INFO ] 2020-04-28 18:23:03.737 [main] Log - Item search successfully
+[INFO ] 2020-04-28 18:28:20.099 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-28 18:28:30.031 [main] Log - Email entered
+[INFO ] 2020-04-28 18:28:30.966 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-28 18:28:40.680 [main] Log - Password entered
+[INFO ] 2020-04-28 18:28:41.862 [main] Log - Clicked on Login button
+[INFO ] 2020-04-28 18:29:41.206 [main] Log - Item search successfully
+[INFO ] 2020-04-28 23:24:15.430 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-28 23:24:31.660 [main] Log - Email entered
+[INFO ] 2020-04-28 23:24:32.514 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-28 23:24:43.151 [main] Log - Password entered
+[INFO ] 2020-04-28 23:24:44.322 [main] Log - Clicked on Login button
+[INFO ] 2020-04-28 23:24:58.483 [main] Log - English language option selected
+[INFO ] 2020-04-28 23:25:07.032 [main] Log - Item search successfully
+[INFO ] 2020-04-28 23:26:56.534 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-28 23:27:37.475 [main] Log - Email entered
+[INFO ] 2020-04-28 23:27:38.391 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-28 23:27:47.587 [main] Log - Password entered
+[INFO ] 2020-04-28 23:27:48.730 [main] Log - Clicked on Login button
+[INFO ] 2020-04-28 23:28:02.646 [main] Log - English language option selected
+[INFO ] 2020-04-28 23:28:10.883 [main] Log - Item search successfully
+[INFO ] 2020-04-28 23:48:02.232 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-28 23:48:12.732 [main] Log - Email entered
+[INFO ] 2020-04-28 23:48:13.707 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-28 23:48:23.495 [main] Log - Password entered
+[INFO ] 2020-04-28 23:48:25.056 [main] Log - Clicked on Login button
+[INFO ] 2020-04-28 23:48:41.968 [main] Log - English language option selected
+[INFO ] 2020-04-28 23:48:49.872 [main] Log - Item search successfully
+[INFO ] 2020-04-28 23:56:00.633 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-28 23:56:11.127 [main] Log - Email entered
+[INFO ] 2020-04-28 23:56:11.996 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-28 23:56:21.507 [main] Log - Password entered
+[INFO ] 2020-04-28 23:56:22.684 [main] Log - Clicked on Login button
+[INFO ] 2020-04-28 23:56:41.908 [main] Log - English language option selected
+[INFO ] 2020-04-28 23:56:49.549 [main] Log - Item search successfully
+[INFO ] 2020-04-29 00:01:33.680 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 00:01:44.512 [main] Log - Email entered
+[INFO ] 2020-04-29 00:01:45.490 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 00:01:54.903 [main] Log - Password entered
+[INFO ] 2020-04-29 00:01:56.136 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 00:02:16.394 [main] Log - English language option selected
+[INFO ] 2020-04-29 00:02:24.685 [main] Log - Item search successfully
+[INFO ] 2020-04-29 00:26:24.112 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 00:26:35.413 [main] Log - Email entered
+[INFO ] 2020-04-29 00:26:36.310 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 00:26:46.322 [main] Log - Password entered
+[INFO ] 2020-04-29 00:26:47.614 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 00:26:55.812 [main] Log - Screen orientation changed to LANDSCAPE mode
+[INFO ] 2020-04-29 00:27:00.153 [main] Log - Screenshot captured with file name - 29042020122658-LogingScreen.png
+[INFO ] 2020-04-29 00:27:00.659 [main] Log - Screen orientation changed to PORTRAIT mode
+[INFO ] 2020-04-29 00:27:12.662 [main] Log - English language option selected
+[INFO ] 2020-04-29 00:27:21.087 [main] Log - Item search successfully
+[INFO ] 2020-04-29 00:27:25.629 [main] Log - Screenshot captured with file name - 29042020122724-SearchResults.png
+[INFO ] 2020-04-29 00:37:09.706 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 00:37:20.585 [main] Log - Email entered
+[INFO ] 2020-04-29 00:37:21.456 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 00:37:30.900 [main] Log - Password entered
+[INFO ] 2020-04-29 00:37:32.010 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 00:37:40.085 [main] Log - Screen orientation changed toLANDSCAPE
+[INFO ] 2020-04-29 00:37:44.398 [main] Log - Screenshot captured with file name - 29042020123743-LogingScreen.png
+[INFO ] 2020-04-29 00:37:46.261 [main] Log - Screen orientation changed to PORTRAIT
+[INFO ] 2020-04-29 00:37:58.698 [main] Log - English language option selected
+[INFO ] 2020-04-29 00:38:06.785 [main] Log - Item search successfully
+[INFO ] 2020-04-29 00:38:11.311 [main] Log - Screenshot captured with file name - 29042020123809-SearchResults.png
+[INFO ] 2020-04-29 00:38:11.311 [main] Log - TV searched & selected successful
+[INFO ] 2020-04-29 01:52:00.657 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 01:52:11.078 [main] Log - Email entered
+[INFO ] 2020-04-29 01:52:11.976 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 01:52:21.454 [main] Log - Password entered
+[INFO ] 2020-04-29 01:52:22.484 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 01:52:32.921 [main] Log - Screen orientation changed to LANDSCAPE
+[INFO ] 2020-04-29 01:52:37.483 [main] Log - Screenshot captured with file name - 29042020015236-LogingScreen.png
+[INFO ] 2020-04-29 01:52:38.803 [main] Log - Screen orientation changed to PORTRAIT
+[INFO ] 2020-04-29 01:52:50.923 [main] Log - English language option selected
+[INFO ] 2020-04-29 01:52:58.573 [main] Log - Item search successfully
+[INFO ] 2020-04-29 01:53:03.248 [main] Log - Screenshot captured with file name - 29042020015301-SearchResults.png
+[INFO ] 2020-04-29 01:53:03.249 [main] Log - TV searched & selected successful
+[INFO ] 2020-04-29 01:59:23.877 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 01:59:34.044 [main] Log - Email entered
+[INFO ] 2020-04-29 01:59:34.947 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 01:59:44.971 [main] Log - Password entered
+[INFO ] 2020-04-29 01:59:46.312 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 01:59:57.451 [main] Log - Screen orientation changed to LANDSCAPE
+[INFO ] 2020-04-29 02:00:01.881 [main] Log - Screenshot captured with file name - 29042020020000-LogingScreen.png
+[INFO ] 2020-04-29 02:00:03.211 [main] Log - Screen orientation changed to PORTRAIT
+[INFO ] 2020-04-29 02:00:15.065 [main] Log - English language option selected
+[INFO ] 2020-04-29 02:00:23.859 [main] Log - Item search successfully
+[INFO ] 2020-04-29 02:00:28.386 [main] Log - Screenshot captured with file name - 29042020020026-SearchResults.png
+[INFO ] 2020-04-29 02:00:28.386 [main] Log - TV searched & selected successful
+[INFO ] 2020-04-29 02:02:24.577 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 02:02:34.687 [main] Log - Email entered
+[INFO ] 2020-04-29 02:02:35.599 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 02:02:45.269 [main] Log - Password entered
+[INFO ] 2020-04-29 02:02:46.538 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 02:02:55.838 [main] Log - Screen orientation changed to LANDSCAPE
+[INFO ] 2020-04-29 02:03:00.164 [main] Log - Screenshot captured with file name - 29042020020258-LogingScreen.png
+[INFO ] 2020-04-29 02:03:01.588 [main] Log - Screen orientation changed to PORTRAIT
+[INFO ] 2020-04-29 02:03:14.436 [main] Log - English language option selected
+[INFO ] 2020-04-29 02:03:22.725 [main] Log - Item search successfully
+[INFO ] 2020-04-29 02:03:27.344 [main] Log - Screenshot captured with file name - 29042020020325-SearchResults.png
+[INFO ] 2020-04-29 02:03:27.344 [main] Log - TV searched & selected successful
+[INFO ] 2020-04-29 02:10:11.817 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 02:10:22.415 [main] Log - Email entered
+[INFO ] 2020-04-29 02:10:23.420 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 02:10:32.458 [main] Log - Password entered
+[INFO ] 2020-04-29 02:10:33.695 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 02:10:42.299 [main] Log - Screen orientation changed to LANDSCAPE
+[INFO ] 2020-04-29 02:10:46.752 [main] Log - Screenshot captured with file name - 29042020021045-LogingScreen.png
+[INFO ] 2020-04-29 02:10:48.081 [main] Log - Screen orientation changed to PORTRAIT
+[INFO ] 2020-04-29 02:11:00.261 [main] Log - English language option selected
+[INFO ] 2020-04-29 02:11:08.600 [main] Log - Item search successfully
+[INFO ] 2020-04-29 02:11:13.100 [main] Log - Screenshot captured with file name - 29042020021111-SearchResults.png
+[INFO ] 2020-04-29 02:11:13.100 [main] Log - TV searched & selected successful
+[INFO ] 2020-04-29 02:18:29.565 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 02:18:39.063 [main] Log - Email entered
+[INFO ] 2020-04-29 02:18:39.930 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 02:18:49.452 [main] Log - Password entered
+[INFO ] 2020-04-29 02:18:51.068 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 02:19:00.978 [main] Log - Screen orientation changed to LANDSCAPE
+[INFO ] 2020-04-29 02:19:05.360 [main] Log - Screenshot captured with file name - 29042020021903-LogingScreen.png
+[INFO ] 2020-04-29 02:19:06.717 [main] Log - Screen orientation changed to PORTRAIT
+[INFO ] 2020-04-29 02:19:19.575 [main] Log - English language option selected
+[INFO ] 2020-04-29 02:19:27.961 [main] Log - Item search successfully
+[INFO ] 2020-04-29 02:19:32.499 [main] Log - Screenshot captured with file name - 29042020021930-SearchResults.png
+[INFO ] 2020-04-29 02:19:32.499 [main] Log - TV searched & selected successful
+[INFO ] 2020-04-29 02:21:41.101 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 02:21:51.124 [main] Log - Email entered
+[INFO ] 2020-04-29 02:21:52.047 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 02:22:01.500 [main] Log - Password entered
+[INFO ] 2020-04-29 02:22:02.646 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 02:22:13.574 [main] Log - Screen orientation changed to LANDSCAPE
+[INFO ] 2020-04-29 02:22:17.934 [main] Log - Screenshot captured with file name - 29042020022216-LogingScreen.png
+[INFO ] 2020-04-29 02:22:18.450 [main] Log - Screen orientation changed to PORTRAIT
+[INFO ] 2020-04-29 02:22:30.340 [main] Log - English language option selected
+[INFO ] 2020-04-29 02:22:38.214 [main] Log - Item search successfully
+[INFO ] 2020-04-29 02:22:42.713 [main] Log - Screenshot captured with file name - 29042020022241-SearchResults.png
+[INFO ] 2020-04-29 02:22:42.713 [main] Log - TV searched & selected successful
+[INFO ] 2020-04-29 02:29:33.718 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 02:29:44.055 [main] Log - Email entered
+[INFO ] 2020-04-29 02:29:44.963 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 02:29:54.373 [main] Log - Password entered
+[INFO ] 2020-04-29 02:29:55.991 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 02:30:07.045 [main] Log - Screen orientation changed to LANDSCAPE
+[INFO ] 2020-04-29 02:30:11.358 [main] Log - Screenshot captured with file name - 29042020023010-LogingScreen.png
+[INFO ] 2020-04-29 02:30:11.490 [main] Log - Screen orientation changed to PORTRAIT
+[INFO ] 2020-04-29 02:30:23.436 [main] Log - English language option selected
+[INFO ] 2020-04-29 02:30:31.205 [main] Log - Item search successfully
+[INFO ] 2020-04-29 02:30:35.748 [main] Log - Screenshot captured with file name - 29042020023034-SearchResults.png
+[INFO ] 2020-04-29 02:30:35.749 [main] Log - TV searched & selected successful
+[INFO ] 2020-04-29 02:36:40.672 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 02:36:50.757 [main] Log - Email entered
+[INFO ] 2020-04-29 02:36:51.745 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 02:37:00.749 [main] Log - Password entered
+[INFO ] 2020-04-29 02:37:02.543 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 02:37:13.717 [main] Log - Screen orientation changed to LANDSCAPE
+[INFO ] 2020-04-29 02:37:18.079 [main] Log - Screenshot captured with file name - 29042020023716-LogingScreen.png
+[INFO ] 2020-04-29 02:37:19.720 [main] Log - Screen orientation changed to PORTRAIT
+[INFO ] 2020-04-29 02:37:33.351 [main] Log - English language option selected
+[INFO ] 2020-04-29 02:37:41.220 [main] Log - Item search successfully
+[INFO ] 2020-04-29 02:37:45.716 [main] Log - Screenshot captured with file name - 29042020023744-SearchResults.png
+[INFO ] 2020-04-29 02:37:45.717 [main] Log - TV searched & selected successful
+[INFO ] 2020-04-29 02:45:42.191 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 02:45:55.713 [main] Log - Email entered
+[INFO ] 2020-04-29 02:45:56.750 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 02:46:07.180 [main] Log - Password entered
+[INFO ] 2020-04-29 02:46:08.578 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 02:46:21.280 [main] Log - Screen orientation changed to LANDSCAPE
+[INFO ] 2020-04-29 02:46:26.113 [main] Log - Screenshot captured with file name - 29042020024624-LogingScreen.png
+[INFO ] 2020-04-29 02:46:26.269 [main] Log - Screen orientation changed to PORTRAIT
+[INFO ] 2020-04-29 02:46:38.574 [main] Log - English language option selected
+[INFO ] 2020-04-29 02:46:46.731 [main] Log - Item search successfully
+[INFO ] 2020-04-29 02:46:51.349 [main] Log - Screenshot captured with file name - 29042020024649-SearchResults.png
+[INFO ] 2020-04-29 02:46:51.349 [main] Log - TV searched & selected successful
+[INFO ] 2020-04-29 03:18:31.405 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 03:18:41.629 [main] Log - Email entered
+[INFO ] 2020-04-29 03:18:42.530 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 03:18:51.989 [main] Log - Password entered
+[INFO ] 2020-04-29 03:18:53.089 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 03:19:03.214 [main] Log - Screen orientation changed to LANDSCAPE
+[INFO ] 2020-04-29 03:19:07.580 [main] Log - Screenshot captured with file name - 29042020031906-LogingScreen.png
+[INFO ] 2020-04-29 03:19:09.118 [main] Log - Screen orientation changed to PORTRAIT
+[INFO ] 2020-04-29 03:19:21.541 [main] Log - English language option selected
+[INFO ] 2020-04-29 03:19:29.482 [main] Log - Item search successfully
+[INFO ] 2020-04-29 03:19:34.007 [main] Log - Screenshot captured with file name - 29042020031932-SearchResults.png
+[INFO ] 2020-04-29 03:19:34.007 [main] Log - TV searched & selected successful
+[INFO ] 2020-04-29 03:27:09.877 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 03:27:20.221 [main] Log - Email entered
+[INFO ] 2020-04-29 03:27:21.072 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 03:27:34.857 [main] Log - Password entered
+[INFO ] 2020-04-29 03:27:36.009 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 03:27:47.019 [main] Log - Screen orientation changed to LANDSCAPE
+[INFO ] 2020-04-29 03:27:51.511 [main] Log - Screenshot captured with file name - 29042020032750-LogingScreen.png
+[INFO ] 2020-04-29 03:27:52.037 [main] Log - Screen orientation changed to PORTRAIT
+[INFO ] 2020-04-29 03:28:04.011 [main] Log - English language option selected
+[INFO ] 2020-04-29 03:28:12.835 [main] Log - Item search successfully
+[INFO ] 2020-04-29 03:28:17.390 [main] Log - Screenshot captured with file name - 29042020032815-SearchResults.png
+[INFO ] 2020-04-29 03:28:17.390 [main] Log - TV searched & selected successful
+[INFO ] 2020-04-29 03:40:39.661 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 03:45:59.601 [main] Log - UN:suresh.chudoji7@gmail.com
+[INFO ] 2020-04-29 03:45:59.603 [main] Log - PWPassword#123
+[INFO ] 2020-04-29 03:46:00.251 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 03:46:10.311 [main] Log - Email entered
+[INFO ] 2020-04-29 03:46:11.270 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 03:46:20.401 [main] Log - Password entered
+[INFO ] 2020-04-29 03:46:21.572 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 03:46:31.452 [main] Log - Screen orientation changed to LANDSCAPE
+[INFO ] 2020-04-29 03:46:35.878 [main] Log - Screenshot captured with file name - 29042020034634-LogingScreen.png
+[INFO ] 2020-04-29 03:46:38.447 [main] Log - Screen orientation changed to PORTRAIT
+[INFO ] 2020-04-29 03:46:50.867 [main] Log - English language option selected
+[INFO ] 2020-04-29 03:46:58.872 [main] Log - Item search successfully
+[INFO ] 2020-04-29 03:47:03.470 [main] Log - Screenshot captured with file name - 29042020034701-SearchResults.png
+[INFO ] 2020-04-29 03:47:03.471 [main] Log - TV searched & selected successful
+[INFO ] 2020-04-29 04:18:07.633 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 04:18:18.391 [main] Log - Email entered
+[INFO ] 2020-04-29 04:18:19.306 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 04:18:28.039 [main] Log - Password entered
+[INFO ] 2020-04-29 04:18:29.207 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 04:18:40.017 [main] Log - Screen orientation changed to LANDSCAPE
+[INFO ] 2020-04-29 04:18:44.323 [main] Log - Screenshot captured with file name - 29042020041843-LogingScreen.png
+[INFO ] 2020-04-29 04:18:45.963 [main] Log - Screen orientation changed to PORTRAIT
+[INFO ] 2020-04-29 04:18:58.340 [main] Log - English language option selected
+[INFO ] 2020-04-29 04:20:37.318 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 04:20:49.091 [main] Log - Email entered
+[INFO ] 2020-04-29 04:20:50.051 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 04:20:59.336 [main] Log - Password entered
+[INFO ] 2020-04-29 04:21:00.507 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 04:21:08.882 [main] Log - Screen orientation changed to LANDSCAPE
+[INFO ] 2020-04-29 04:21:13.404 [main] Log - Screenshot captured with file name - 29042020042111-LogingScreen.png
+[INFO ] 2020-04-29 04:21:13.563 [main] Log - Screen orientation changed to PORTRAIT
+[INFO ] 2020-04-29 04:21:25.395 [main] Log - English language option selected
+[INFO ] 2020-04-29 04:23:25.963 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 04:23:37.236 [main] Log - Email entered
+[INFO ] 2020-04-29 04:23:38.184 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 04:23:47.838 [main] Log - Password entered
+[INFO ] 2020-04-29 04:23:48.883 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 04:23:59.005 [main] Log - Screen orientation changed to LANDSCAPE
+[INFO ] 2020-04-29 04:24:03.432 [main] Log - Screenshot captured with file name - 29042020042402-LogingScreen.png
+[INFO ] 2020-04-29 04:24:04.904 [main] Log - Screen orientation changed to PORTRAIT
+[INFO ] 2020-04-29 04:24:17.207 [main] Log - English language option selected
+[INFO ] 2020-04-29 04:25:36.722 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 04:25:47.388 [main] Log - Email entered
+[INFO ] 2020-04-29 04:25:48.345 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 04:25:57.562 [main] Log - Password entered
+[INFO ] 2020-04-29 04:25:58.752 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 04:26:09.045 [main] Log - Screen orientation changed to LANDSCAPE
+[INFO ] 2020-04-29 04:26:13.439 [main] Log - Screenshot captured with file name - 29042020042612-LogingScreen.png
+[INFO ] 2020-04-29 04:26:14.754 [main] Log - Screen orientation changed to PORTRAIT
+[INFO ] 2020-04-29 04:26:26.782 [main] Log - English language option selected
+[INFO ] 2020-04-29 04:26:35.333 [main] Log - Item search successfully
+[INFO ] 2020-04-29 04:26:39.899 [main] Log - Screenshot captured with file name - 29042020042638-SearchResults.png
+[INFO ] 2020-04-29 04:26:39.900 [main] Log - TV searched & selected successful
+[INFO ] 2020-04-29 04:28:34.660 [main] Log - Clicked on Use Different Account button
+[INFO ] 2020-04-29 04:28:47.525 [main] Log - Email entered
+[INFO ] 2020-04-29 04:28:48.549 [main] Log - Clicked on Continue button
+[INFO ] 2020-04-29 04:28:57.816 [main] Log - Password entered
+[INFO ] 2020-04-29 04:28:59.540 [main] Log - Clicked on Login button
+[INFO ] 2020-04-29 04:29:09.336 [main] Log - Screen orientation changed to LANDSCAPE
+[INFO ] 2020-04-29 04:29:13.772 [main] Log - Screenshot captured with file name - 29042020042912-LogingScreen.png
+[INFO ] 2020-04-29 04:29:15.173 [main] Log - Screen orientation changed to PORTRAIT
+[INFO ] 2020-04-29 04:29:27.488 [main] Log - English language option selected
+[INFO ] 2020-04-29 04:29:35.475 [main] Log - Item search successfully
+[INFO ] 2020-04-29 04:29:40.045 [main] Log - Screenshot captured with file name - 29042020042938-SearchResults.png
+[INFO ] 2020-04-29 04:29:40.046 [main] Log - TV searched & selected successful
+[INFO ] 2020-04-29 04:29:40.460 [main] Log - Random product from searched results - Apple iPhone 11 Pro Max (64GB) - Gold

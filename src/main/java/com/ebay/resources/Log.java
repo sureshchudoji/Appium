@@ -20,13 +20,11 @@ public class Log {
 	//Writes error messages to log file
 	public static void error(String message) {
 		logger.error(message);
-		//Log.error(message);
 	}
 
 	//Writes fatal messages to log file
 	public static void fatal(String message) {
 		logger.fatal(message);
-		//Log.fatal(message);
 	}
 
 	//Writes debug messages to log file

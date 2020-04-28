@@ -1,4 +1,4 @@
-package com.ebay.resources;
+package com.ebay.utilities;
 
 public class Constants {
 
@@ -29,6 +29,8 @@ public class Constants {
 	public static boolean TRUE  =  true;
 	public static boolean FALSE  =  false;
 	public static int MAX_WAIT = 10000;
-	public static int MIN_WAIT = 5000;
+	public static int MIN_WAIT = 3000;
+	public static String LANDSCAPE_MODE = "LANDSCAPE";
+	public static String PORTRAIT_MODE = "PORTRAIT";
 	
 }

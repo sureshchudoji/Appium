@@ -5,9 +5,9 @@
     <classes>
       <class name="com.ebay.testCases.LoginAndSearchProductTest">
         <methods>
-          <include name="afterClass"/>
-          <include name="LoginAndSearchTest"/>
           <include name="beforeClass"/>
+          <include name="LoginAndSearchTest"/>
+          <include name="afterClass"/>
         </methods>
       </class> <!-- com.ebay.testCases.LoginAndSearchProductTest -->
     </classes>
