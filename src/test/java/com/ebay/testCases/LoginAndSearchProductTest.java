@@ -10,7 +10,7 @@ import com.ebay.pageObjects.HomePage;
 import com.ebay.pageObjects.LoginPage;
 import com.ebay.utilities.BaseClass;
 import com.ebay.utilities.Constants;
-import com.ebay.resources.Log;
+import com.ebay.utilities.Log;
 import com.ebay.utilities.ReadConfig;
 import com.ebay.utilities.Helper;
 import com.ebay.utilities.ExcelData;

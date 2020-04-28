@@ -3,7 +3,7 @@ package com.ebay.pageObjects;
 import org.openqa.selenium.support.PageFactory;
 
 import com.ebay.utilities.BaseClass;
-import com.ebay.resources.Log;
+import com.ebay.utilities.Log;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidElement;

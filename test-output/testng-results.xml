@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="81856" started-at="2020-04-29T04:28:22 IST" finished-at="2020-04-29T04:29:43 IST">
+  <suite name="Default suite" duration-ms="76976" started-at="2020-04-29T04:37:14 IST" finished-at="2020-04-29T04:38:31 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="81856" started-at="2020-04-29T04:28:22 IST" finished-at="2020-04-29T04:29:43 IST">
+    <test name="Default test" duration-ms="76976" started-at="2020-04-29T04:37:14 IST" finished-at="2020-04-29T04:38:31 IST">
       <class name="com.ebay.testCases.LoginAndSearchProductTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ebay.testCases.LoginAndSearchProductTest@4d41cee]" name="beforeClass" is-config="true" duration-ms="9915" started-at="2020-04-29T04:28:22 IST" finished-at="2020-04-29T04:28:32 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ebay.testCases.LoginAndSearchProductTest@4d41cee]" name="beforeClass" is-config="true" duration-ms="8665" started-at="2020-04-29T04:37:14 IST" finished-at="2020-04-29T04:37:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="LoginAndSearchTest()[pri:0, instance:com.ebay.testCases.LoginAndSearchProductTest@4d41cee]" name="LoginAndSearchTest" duration-ms="68428" started-at="2020-04-29T04:28:32 IST" finished-at="2020-04-29T04:29:40 IST">
+        <test-method status="PASS" signature="LoginAndSearchTest()[pri:0, instance:com.ebay.testCases.LoginAndSearchProductTest@4d41cee]" name="LoginAndSearchTest" duration-ms="65326" started-at="2020-04-29T04:37:23 IST" finished-at="2020-04-29T04:38:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAndSearchTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ebay.testCases.LoginAndSearchProductTest@4d41cee]" name="afterClass" is-config="true" duration-ms="3450" started-at="2020-04-29T04:29:40 IST" finished-at="2020-04-29T04:29:43 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ebay.testCases.LoginAndSearchProductTest@4d41cee]" name="afterClass" is-config="true" duration-ms="2930" started-at="2020-04-29T04:38:28 IST" finished-at="2020-04-29T04:38:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

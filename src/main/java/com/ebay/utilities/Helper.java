@@ -5,15 +5,12 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import com.ebay.utilities.BaseClass;
-import com.ebay.resources.Log;
+import com.ebay.utilities.Log;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.TakesScreenshot;
-
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;;
 
 public class Helper {
 
