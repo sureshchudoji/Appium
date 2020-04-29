@@ -42,7 +42,7 @@ public abstract class BaseClass {
 			driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		}
 		catch(Exception ex) {
-			System.out.println(ex.getMessage());			
+			Log.error(ex.getMessage());			
 		}
 
 	}

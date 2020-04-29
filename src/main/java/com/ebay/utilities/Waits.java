@@ -15,7 +15,7 @@ public class Waits extends BaseClass {
 			wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.visibilityOf(androidElement));
 		}catch (Exception ex) {
-			Log.info(ex.getMessage());
+			Log.error(ex.getMessage());
 		}
 		return androidElement;
 	}

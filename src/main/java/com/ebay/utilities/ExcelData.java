@@ -28,13 +28,13 @@ public class ExcelData {
 
 			row = sheet.getRow(1);
 			cell = row.getCell(0);
-		} 
-		catch (Exception e) {
-			e.printStackTrace();
-		}
-		finally {
+			
 			file.close();
+		} 
+		catch (Exception ex) {
+			Log.error(ex.getMessage());
 		}
+
 		Log.info("Username: "+cell.getStringCellValue());
 		return cell.getStringCellValue();
 	}
@@ -49,13 +49,13 @@ public class ExcelData {
 
 			row = sheet.getRow(1);
 			cell = row.getCell(1);
-		} 
-		catch (Exception e) {
-			e.printStackTrace();
-		}
-		finally {
+			
 			file.close();
+		} 
+		catch (Exception ex) {
+			Log.error(ex.getMessage());
 		}
+		
 		Log.info("Password: "+cell.getStringCellValue());
 		return cell.getStringCellValue();
 	} 

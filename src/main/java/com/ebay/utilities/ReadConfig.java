@@ -14,8 +14,10 @@ public class ReadConfig {
          prop.load(fis);
          
       } catch(FileNotFoundException fnfe) {
-         fnfe.printStackTrace();
+         Log.error(fnfe.getMessage());
+    	  fnfe.printStackTrace();
       } catch(IOException ioe) {
+    	  Log.error(ioe.getMessage());
          ioe.printStackTrace();
       } finally {
          fis.close();
